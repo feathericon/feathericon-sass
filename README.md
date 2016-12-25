@@ -3,6 +3,14 @@
 
 <h1 align="center">feathericon</h1>
 <p align="center">feathericon is simple, scalable vector icon font for websites, apps.</p>
+<div align="center">
+  <a href="https://rubygems.org/gems/feathericon-sass">
+    <img src="http://img.shields.io/gem/v/feathericon-sass.svg" alt="Gem Version">
+  </a>
+  <a href="https://rubygems.org/gems/feathericon-sass">
+    <img src="https://img.shields.io/gem/dt/feathericon-sass.svg" alt="Gem Downloads">
+  </a>
+</div>
 <p align="center">Website: <a href="http://feathericon.com">http://feathericon.com</a></p>
 
 ## Usage
