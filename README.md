@@ -1,7 +1,7 @@
 
 ![feathericon](https://raw.githubusercontent.com/featherplain/feathericon/master/docs/img_ogp.png "feathericon")
 
-<h1 align="center">feathericon</h1>
+<h1 align="center">feathericon-sass</h1>
 <p align="center">feathericon is simple, scalable vector icon font for websites, apps.</p>
 <div align="center">
   <a href="https://rubygems.org/gems/feathericon-sass">
