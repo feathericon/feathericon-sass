@@ -9,11 +9,11 @@
  */
  @font-face {
   font-family: 'feathericon';
-  src: url('feathericon.eot');
-  src: url('feathericon.eot?#iefix') format('embedded-opentype'),
-    url('feathericon.woff') format('woff'),
-    url('feathericon.ttf') format('truetype'),
-    url('feathericon.svg') format('svg');
+  src: font-url('feathericon.eot');
+  src: font-url('feathericon.eot?#iefix') format('embedded-opentype'),
+    font-url('feathericon.woff') format('woff'),
+    font-url('feathericon.ttf') format('truetype'),
+    font-url('feathericon.svg') format('svg');
   font-weight: normal;
   font-style: normal;
  }
