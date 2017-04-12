@@ -1,5 +1,5 @@
 module Feathericon
   module Sass
-    VERSION = '0.6.0.1'
+    VERSION = '0.7.0'
   end
 end
