@@ -1,5 +1,5 @@
 
-![feathericon](https://raw.githubusercontent.com/featherplain/feathericon/master/docs/img_ogp.png "feathericon")
+![feathericon](https://raw.githubusercontent.com/featherplain/feathericon/master/docs/img_feathericon_white.png "feathericon")
 
 <h1 align="center">feathericon-sass</h1>
 <p align="center">feathericon is simple, scalable vector icon font for websites, apps.</p>
