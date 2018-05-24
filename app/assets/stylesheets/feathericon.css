@@ -54,6 +54,7 @@
 .fe-bar:before { content: "\f105"; }
 .fe-bar-chart:before { content: "\f106"; }
 .fe-beer:before { content: "\f107"; }
+.fe-beginner:before { content: "\f1f7"; }
 .fe-bell:before { content: "\f108"; }
 .fe-birthday-cake:before { content: "\f163"; }
 .fe-bold:before { content: "\f179"; }
@@ -219,6 +220,8 @@
 .fe-sitemap:before { content: "\f150"; }
 .fe-smile:before { content: "\f1bc"; }
 .fe-smile-alt:before { content: "\f1bd"; }
+.fe-smile-heart:before { content: "\f1f6"; }
+.fe-smile-plus:before { content: "\f1f5"; }
 .fe-speaker:before { content: "\f1ab"; }
 .fe-star:before { content: "\f151"; }
 .fe-star-o:before { content: "\f168"; }
@@ -243,6 +246,7 @@
 .fe-tiled:before { content: "\f156"; }
 .fe-timeline:before { content: "\f1ad"; }
 .fe-tired:before { content: "\f1be"; }
+.fe-train:before { content: "\f1f8"; }
 .fe-trash:before { content: "\f157"; }
 .fe-trophy:before { content: "\f158"; }
 .fe-truck:before { content: "\f1ed"; }
