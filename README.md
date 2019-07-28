@@ -17,8 +17,12 @@
 ## Usage
 
 Place feathicon with `<i>` tag in your html like this. `fe` class is required to use our icons correctly. Check out [our website](http://feathericon.com) to start using icons!
-
+  ```haml
+  -# haml
+  = icon('heart')
+  ```
   ```html
+  <!-- erb/html -->
   <i class="fe fe-heart"></i>
   ```
 
