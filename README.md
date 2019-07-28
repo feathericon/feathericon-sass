@@ -17,14 +17,21 @@
 ## Usage
 
 Place feathicon with `<i>` tag in your html like this. `fe` class is required to use our icons correctly. Check out [our website](http://feathericon.com) to start using icons!
-  ```haml
-  -# haml
-  = icon('heart')
-  ```
+
+#### Normal HTML
   ```html
   <!-- erb/html -->
   <i class="fe fe-heart"></i>
   ```
+
+#### Rails Helper usage
+```ruby
+icon('heart')
+# <i class="fe fe-heart"></i>
+
+icon('heart', 'Feather Icon', id: 'myIcon', class: 'strong')
+# <i id="myIcon" class="fe fe-heart strong"></i> Feather Icon
+```
 
 ## Installation
 Add this line to your application's Gemfile:
