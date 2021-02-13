@@ -1,4 +1,5 @@
 require "feathericon/sass/engine"
+require 'feathericon/rails/railtie'
 
 module Feathericon
   module Sass
