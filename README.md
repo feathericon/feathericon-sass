@@ -1,6 +1,4 @@
 ![feathericon](https://raw.githubusercontent.com/featherplain/feathericon/master/docs/img_feathericon_white.png "feathericon")
-<br>
-![feathericon](https://raw.githubusercontent.com/featherplain/feathericon/master/docs/img_feathericon_green.png "feathericon")
 
 <h1 align="center">feathericon-sass</h1>
 <p align="center">feathericon is simple, scalable vector icon font for websites, apps.</p>
@@ -12,11 +10,11 @@
     <img src="https://img.shields.io/gem/dt/feathericon-sass.svg" alt="Gem Downloads">
   </a>
 </div>
-<p align="center">Website: <a href="http://feathericon.com">http://feathericon.com</a></p>
+<p align="center">Website: <a href="https://feathericon.github.io/feathericon/">https://feathericon.github.io/feathericon/</a></p>
 
 ## Usage
 
-Place feathicon with `<i>` tag in your html like this. `fe` class is required to use our icons correctly. Check out [our website](http://feathericon.com) to start using icons!
+Place feathicon with `<i>` tag in your html like this. `fe` class is required to use our icons correctly. Check out [our website](https://feathericon.github.io/feathericon/) to start using icons!
 
   ```html
   <i class="fe fe-heart"></i>
