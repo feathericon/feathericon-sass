@@ -8,7 +8,7 @@ Gem::Specification.new do |s|
   s.name        = "feathericon-sass"
   s.version     = Feathericon::Sass::VERSION
   s.authors     = ["shoken"]
-  s.email       = ["syokenz@gmail.com"]
+  s.email       = ["shoken0x@gmail.com"]
   s.homepage    = "https://github.com/feathericon/feathericon-sass"
   s.summary     = "feathericon Sass gem for use in Ruby/Rails projects"
   s.description = "[ Icons ] Simple, scalable vector icon font for websites, apps."
