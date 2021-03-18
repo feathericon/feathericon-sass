@@ -4,6 +4,7 @@ See [GitHub Releases](https://github.com/feathericon/feathericon-sass/releases)
 
 | Version | feathericon | Notes / Other additions                                            |
 |---------|-------------|--------------------------------------------------------------------|
+|   1.0.2 | `d72830f`   | [v1.0.2](https://github.com/feathericon/feathericon/releases/tag/v1.0.2) Add new icons, Enable woff2, Remove EOL ruby-sass |
 |   1.0.0 | `f2ff3f4`   | [v1.0.0](https://github.com/feathericon/feathericon/releases/tag/v1.0.0) 🚀 1.0.0 🚀 |
 |   0.11.0 | `d4be9d0`  | [v0.11.0](https://github.com/feathericon/feathericon/releases/tag/v0.11.0) Add new icons |
 |   0.9.0 | `86613d6`   | [v0.9.3](https://github.com/feathericon/feathericon/releases/tag/v0.9.3) Add new icons |

@@ -1,29 +1,33 @@
 @charset "utf-8";
 
-/*---------------------------------------------------------------------------*/
-/* feathericon
-/*---------------------------------------------------------------------------*/
+//---------------------------------------------------------------------------
+// feathericon
+//---------------------------------------------------------------------------
 
-/**
- * font path
- */
- @font-face {
+//
+// variables
+//
+$feathericon-font-path: '../fonts/' !default;
+
+//
+// font path
+//
+@font-face {
   font-family: 'feathericon';
   src: font-url('feathericon.eot');
   src: font-url('feathericon.eot?#iefix') format('embedded-opentype'),
-    font-url('feathericon.woff') format('woff'),
-    font-url('feathericon.woff2') format('woff2'),
-    font-url('feathericon.ttf') format('truetype'),
-    font-url('feathericon.svg') format('svg');
+       font-url('feathericon.woff2') format('woff2'),
+       font-url('feathericon.woff') format('woff'),
+       font-url('feathericon.ttf') format('truetype'),
+       font-url('feathericon.svg') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
- }
+}
 
-
-/**
- * feathericon
- */
+//
+// feathericon
+//
 .fe {
   display: inline-block;
   font: normal normal normal 16px feathericon;
@@ -31,11 +35,11 @@
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
- }
+}
 
-/**
- * all icons
- */
+//
+// all icons
+//
 .fe-activity:before { content: "\f1e2"; }
 .fe-add-cart:before { content: "\f1e6"; }
 .fe-align-bottom:before { content: "\f1bf"; }
@@ -64,13 +68,16 @@
 .fe-bolt:before { content: "\f1e3"; }
 .fe-book:before { content: "\f109"; }
 .fe-bookmark:before { content: "\f170"; }
+.fe-bread:before { content: "\f206"; }
 .fe-browser:before { content: "\f10b"; }
 .fe-brush:before { content: "\f10c"; }
 .fe-bug:before { content: "\f10d"; }
 .fe-building:before { content: "\f10e"; }
+.fe-bus:before { content: "\f1fe"; }
 .fe-cage:before { content: "\f1e7"; }
 .fe-calendar:before { content: "\f10f"; }
 .fe-camera:before { content: "\f110"; }
+.fe-car:before { content: "\f1ff"; }
 .fe-cart:before { content: "\f1e8"; }
 .fe-check:before { content: "\f111"; }
 .fe-check-circle:before { content: "\f19a"; }
@@ -137,6 +144,7 @@
 .fe-fork:before { content: "\f12b"; }
 .fe-forward:before { content: "\f186"; }
 .fe-frowing:before { content: "\f1b9"; }
+.fe-frying-pan:before { content: "\f207"; }
 .fe-gamepad:before { content: "\f191"; }
 .fe-gear:before { content: "\f1a5"; }
 .fe-gift:before { content: "\f1ea"; }
@@ -183,11 +191,16 @@
 .fe-mention:before { content: "\f164"; }
 .fe-messanger:before { content: "\f1e1"; }
 .fe-minus:before { content: "\f140"; }
+.fe-mitarashi-dango:before { content: "\f208"; }
 .fe-mobile:before { content: "\f141"; }
 .fe-money:before { content: "\f1a8"; }
 .fe-moon:before { content: "\f1ef"; }
 .fe-mouse:before { content: "\f142"; }
 .fe-music:before { content: "\f175"; }
+.fe-notice-active:before { content: "\f200"; }
+.fe-notice-off:before { content: "\f201"; }
+.fe-notice-on:before { content: "\f202"; }
+.fe-notice-push:before { content: "\f203"; }
 .fe-octpus:before { content: "\f1fc"; }
 .fe-open-mouth:before { content: "\f1ba"; }
 .fe-palette:before { content: "\f165"; }
@@ -242,6 +255,7 @@
 .fe-tablet:before { content: "\f152"; }
 .fe-tag:before { content: "\f153"; }
 .fe-target:before { content: "\f1f3"; }
+.fe-taxi:before { content: "\f204"; }
 .fe-terminal:before { content: "\f154"; }
 .fe-text-align-center:before { content: "\f1cb"; }
 .fe-text-align-justify:before { content: "\f1e5"; }
@@ -256,6 +270,7 @@
 .fe-trash:before { content: "\f157"; }
 .fe-trophy:before { content: "\f158"; }
 .fe-truck:before { content: "\f1ed"; }
+.fe-tumbler-glass:before { content: "\f209"; }
 .fe-twitter:before { content: "\f1dd"; }
 .fe-umbrella:before { content: "\f1f2"; }
 .fe-underline:before { content: "\f1ae"; }
@@ -269,6 +284,7 @@
 .fe-users:before { content: "\f15c"; }
 .fe-vector:before { content: "\f15d"; }
 .fe-video:before { content: "\f15e"; }
+.fe-vr:before { content: "\f205"; }
 .fe-wallet:before { content: "\f1ee"; }
 .fe-warning:before { content: "\f15f"; }
 .fe-watch:before { content: "\f1af"; }
@@ -277,4 +293,5 @@
 .fe-wordpress:before { content: "\f1de"; }
 .fe-wordpress-alt:before { content: "\f1df"; }
 .fe-wrench:before { content: "\f162"; }
+.fe-yaki-dango:before { content: "\f20a"; }
 .fe-youtube:before { content: "\f1e0"; }

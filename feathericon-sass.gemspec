@@ -16,6 +16,6 @@ Gem::Specification.new do |s|
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]
 
-  s.add_runtime_dependency 'sassc', '>= 2.0'
-  s.add_development_dependency 'sassc-rails'
+  s.add_runtime_dependency 'sassc', '~> 2.0'
+  s.add_development_dependency 'sassc-rails', '~> 2.0'
 end
